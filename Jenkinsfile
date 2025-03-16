@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', credentialsId: 'github-token', url: 'https://github.com/shabi12345/Playwright_Automation_Course.git
+                git branch: 'main', credentialsId: 'github-token', url: 'https://github.com/shabi12345/Playwright_Automation_Course.git'
             }
         }
 
